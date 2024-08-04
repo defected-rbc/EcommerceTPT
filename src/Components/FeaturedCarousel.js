@@ -1,6 +1,8 @@
 import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
-import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import 'react-responsive-carousel/lib/styles/carousel.min.css'; // If you are using specific styles from react-responsive-carousel
+
 import './FeaturedCarousel.css';
 
 const featuredProducts = [

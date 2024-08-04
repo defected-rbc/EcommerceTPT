@@ -1,12 +1,13 @@
 .hero {
   height: 300px;
-  background: url('c:/Users/ASUS/Downloads/Default_A_serene_and_modern_background_image_for_a_website_fea_1.jpg') no-repeat center center/cover;
+  background: url('D:\TPT\EcommerceTPT\src\Components\pictures\BC.jpeg') no-repeat center center/cover;
   display: flex;
   align-items: center;
   justify-content: center;
   color: rgb(218, 46, 46);
   text-align: center;
-  padding: 2px; /* Optional: Add some padding for better spacing */
+  padding: 2px;
+  /* Optional: Add some padding for better spacing */
 }
 
 .hero-content {
@@ -14,25 +15,30 @@
 }
 
 .hero h2 {
-  font-size: 3em; /* Increase font size for the main heading */
+  font-size: 3em;
+  /* Increase font size for the main heading */
   margin: 0;
-  font-weight: bold; /* Optional: Make text bold */
+  font-weight: bold;
+  /* Optional: Make text bold */
 }
 
 .hero p {
-  font-size: 2.0em; /* Increase font size for the paragraph */
-  margin: 20px 0; /* Add margin for spacing */
+  font-size: 2.0em;
+  /* Increase font size for the paragraph */
+  margin: 20px 0;
+  /* Add margin for spacing */
 }
 
 .cta-button {
   display: inline-block;
   padding: 10px 20px;
   margin-top: 20px;
-  background: #f15656;                        
+  background: #f15656;
   color: white;
   text-decoration: none;
   border-radius: 5px;
-  font-size: 1.2rem; /* Increase font size for the button text */
+  font-size: 1.2rem;
+  /* Increase font size for the button text */
 }
 
 .cta-button:hover {
