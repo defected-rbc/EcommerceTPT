@@ -18,10 +18,12 @@ const App = () => (
     <FeaturedCarousel />
     <Footer />
     <Routes>
-      <Route path="/" element={<Addtocart />} />
+      {/* Define routes with relative paths */}
+      <Route path="/addtocart" element={<Addtocart />} />
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
     </Routes>
   </div>
 );
+
 export default App;
