@@ -39,10 +39,19 @@ nav ul li {
 }
 
 nav ul li a {
-  color: white;
+  display: inline-block; /* Makes the link behave like a block element */
+  padding: 10px 20px; /* Add padding to make it look like a button */
+  background-color: blanchedalmond; /* Transparent background */
+  color: rgb(0, 0, 0); /* Button text color */
   text-decoration: none;
+  border-radius: 2000px; /* Rounded corners for the button */
+  font-size: 1rem; /* Adjust font size as needed */
+  font-weight: bold; /* Make text bold */
+  transition: background 0.3s, color 0.3s; /* Smooth transition for hover effects */
 }
 
 nav ul li a:hover {
-  text-decoration: underline;
+  background: white; /* Background color on hover */
+  color: #ad3e3e; /* Text color on hover */
+  text-decoration: none; /* Remove underline on hover */
 }
